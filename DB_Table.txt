@@ -1,0 +1,8 @@
+CREATE TABLE tasks2 (
+    id SERIAL PRIMARY KEY,
+    task TEXT NOT NULL,
+    due_date DATE,
+    is_favorite BOOLEAN DEFAULT FALSE,
+    is_completed BOOLEAN DEFAULT FALSE,
+    description TEXT
+);
